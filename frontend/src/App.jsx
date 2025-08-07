@@ -1,3 +1,13 @@
+// App.jsx
+// This is the main entry point for the Frontend React app.
+// It sets up client-side routing for user-facing pages, renders the Navbar and Footer,
+// and displays Toast notifications for user feedback.
+//
+// Main responsibilities:
+// - Set up routes for all main user pages (Home, Doctors, Login, About, Contact, etc.)
+// - Render Navbar and Footer on all pages
+// - Show Toast notifications
+
 import React from 'react'
 import Navbar from './components/Navbar'
 import { Routes, Route } from 'react-router-dom'

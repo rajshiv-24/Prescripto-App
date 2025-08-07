@@ -1,3 +1,14 @@
+// server.js
+// This is the main entry point for the backend Express server.
+// It configures the server, connects to MongoDB and Cloudinary, sets up middleware, and defines API routes.
+//
+// Main responsibilities:
+// - Load environment variables
+// - Connect to MongoDB and Cloudinary
+// - Set up Express app and middleware (CORS, JSON parsing)
+// - Define API routes for user, admin, and doctor
+// - Start the server and listen on the specified port
+
 import express from "express"
 import cors from 'cors'
 import 'dotenv/config'
